@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="author" content="Juan Francisco Galván">
+  <meta name="date" content="29/08/2023">
+  <meta name="description" content="Virtual store to buy t-shirts for developers">
+  <meta name="keywords" content="e-commerce, virual, store, t-shirt, front-end, developers">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="build/images/favicon.webp" type="image/x-icon">
+  <link rel="preload" href="build/normalize.css" as="style">
+  <link rel="preload" href="build/style.css" as="style">
+  <link rel="stylesheet" href="build/normalize.css">
+  <link rel="stylesheet" href="build/style.css">
+  <title>Front-End Store</title>
+</head>
+<body>
+  <header class="header">
+    <a href="index.html">
+      <img src="build/images/logo.webp" alt="Logo">
+    </a>
+  </header>
+  <nav class="nav">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+  </nav>
+  <main class="container">
+    <section class="shirt">
+      <h2>ReactJS</h2>
+      <div class="shirt-grid">
+        <img src="build/images/product3.webp" alt="Product image">
+        <div class="shirt-content">
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque quibusdam eos voluptatum modi earum id consequatur, aliquid temporibus? Nemo aperiam molestias vitae, animi nam minima.</p>
+          <form class="form">
+            <label for="dropdown">Size</label>
+            <div class="form-flex">
+              <select name="size" id="dropdown" class="form-field">
+                <option disabled selected>Select Size</option>
+                <option>Small</option>
+                <option>Medium</option>
+                <option>Large</option>
+              </select>
+              <input type="number" placeholder="Total" min="1" name="buy" class="form-field">
+              <button type="submit" class="button">Buy</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <p>Created by Juan Francisco Galván</p>
+  </footer>
+</body>
+</html>

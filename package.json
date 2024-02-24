@@ -1,0 +1,19 @@
+{
+  "name": "frontendstore",
+  "version": "1.0.0",
+  "description": "Front-End Store",
+  "main": "gulpfile.js",
+  "scripts": {
+    "dev": "gulp"
+  },
+  "type": "module",
+  "author": "Juan Francisco Galván",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-imagemin": "^9.0.0",
+    "gulp-sass": "^5.1.0",
+    "gulp-webp": "^5.0.0",
+    "normalize.css": "^8.0.1"
+  }
+}
