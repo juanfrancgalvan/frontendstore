@@ -1,7 +1,7 @@
 {
-  "name": "frontendstore",
+  "name": "peekend",
   "version": "1.0.0",
-  "description": "Front-End Store",
+  "description": "Peekend",
   "main": "gulpfile.js",
   "scripts": {
     "dev": "gulp"
