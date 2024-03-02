@@ -96,13 +96,13 @@ img {
 }
 
 .graphic-shirt {
-  background-image: url(/build/images/graphic1.webp);
+  background-image: url('/build/assets/images/graphic1.webp');
   grid-row: 2 / 3;
   border-radius: 1rem;
 }
 
 .graphic-node {
-  background-image: url(/build/images/graphic2.webp);
+  background-image: url('/build/assets/images/graphic2.webp');
   grid-row: 8 / 9;
   border-radius: 1rem;
 }
