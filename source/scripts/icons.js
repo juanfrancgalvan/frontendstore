@@ -12,7 +12,7 @@ const icons = [
     "icon": "/build/assets/images/icon3.webp"
   },
   {
-    "name": "The Best Quality",
+    "name": "Best Quality",
     "icon": "/build/assets/images/icon4.webp"
   }
 ]
