@@ -1,0 +1,39 @@
+@use '../base/variables' as v;
+
+.products h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  color: v.$dark-yellow;
+}
+
+.products-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+
+.product {
+  background-color: v.$dark-brown;
+  padding: 1rem;
+  border-radius: 1rem;
+
+  &:hover {
+    background-color: #310a0a;
+    transition: background-color 0.3s ease-in-out;
+  }
+
+  .product-title {
+    font-size: 1.8rem;
+  }
+
+  .product-price {
+    font-size: 1.6rem;
+    color: v.$dark-yellow;
+  }
+
+  .product-title,
+  .product-price {
+    margin: 10px 0;
+    text-align: center;
+  }
+}

@@ -1,0 +1,28 @@
+@use '../base/variables' as v;
+
+.header {
+  display: flex;
+  justify-content: center;
+
+  img {
+    margin: 2rem 0;
+  }
+}
+
+.nav {
+  background-color: v.$dark-brown;
+  padding: 1rem 0;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+
+  a {
+    color: v.$white;
+    font-size: 1.7rem;
+
+    &:hover {
+      transition: all 0.3s ease;
+      color: v.$yellow;
+    }
+  }
+}
